@@ -1,0 +1,42 @@
+{
+  "name": "voice-o-extractor",
+  "version": "1.0.0",
+  "description": "Extract, structure, and summarize voice memos and raw thoughts locally.",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && electron-builder",
+    "electron": "electron ."
+  },
+  "keywords": [
+    "voice",
+    "transcription",
+    "summarization",
+    "electron",
+    "react",
+    "ffmpeg"
+  ],
+  "author": "Aryan Singh",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wavesurfer.js": "^7.7.15"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "electron": "^29.1.5",
+    "electron-builder": "^24.13.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.2.2",
+    "vite-plugin-electron": "^0.28.6",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  }
+}
